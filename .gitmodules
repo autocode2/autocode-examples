@@ -1,0 +1,4 @@
+[submodule "web"]
+	path = web
+	url = git@github.com:autocode2/autocode-examples.git
+	branch = web
