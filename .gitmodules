@@ -2,6 +2,9 @@
 	path = web
 	url = git@github.com:autocode2/autocode-examples.git
 	branch = web
+	ignore = all
 [submodule "examples/example-todo"]
 	path = examples/example-todo
 	url = git@github.com:autocode2/example-todo.git
+	branch = main
+	ignore = all

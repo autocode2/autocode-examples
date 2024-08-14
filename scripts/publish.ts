@@ -41,6 +41,8 @@ program
     //}
     //});
 
+    process.env['EXAMPLE_PUBLISH_NAME'] = publishName;
+
     const distPath = path.resolve(examplePath, 'dist');
     if (opts.build !== false) {
       console.log(`Building ${pkg}`);
